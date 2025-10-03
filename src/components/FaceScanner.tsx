@@ -496,6 +496,17 @@ const FaceScanner: React.FC = () => {
                   </p>
                 </div>
 
+                {/* AI Analysis Section */}
+                <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-6 border border-purple-200">
+                  <h4 className="font-semibold text-purple-900 mb-3 flex items-center space-x-2">
+                    <Brain className="w-5 h-5" />
+                    <span>AI Visual Analysis</span>
+                  </h4>
+                  <p className="text-purple-800 text-sm leading-relaxed">
+                    {metrics.aiAnalysis}
+                  </p>
+                </div>
+
                 {/* Risk Factors & Recommendations */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
