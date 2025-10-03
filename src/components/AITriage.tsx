@@ -295,7 +295,7 @@ const AITriage: React.FC = () => {
                   <textarea
                     value={inputMessage}
                     onChange={(e) => setInputMessage(e.target.value)}
-                    placeholder="Describe your symptoms, ask health questions, or share your health concerns..."
+                    placeholder="Describe your symptoms, ask health questions, or upload medical documents..."
                     className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-none"
                     rows={2}
                     onKeyPress={(e) => {
@@ -467,10 +467,10 @@ const AITriage: React.FC = () => {
               <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Brain className="w-6 h-6 text-white" />
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">NLP Processing</h4>
+              <h4 className="font-semibold text-gray-900 mb-2">GPT-4 Integration</h4>
               <p className="text-gray-600 text-sm">
-                Advanced natural language processing trained on medical literature 
-                and clinical datasets for accurate symptom interpretation.
+                Direct integration with OpenAI's GPT-4 for advanced natural language 
+                understanding and personalized health guidance.
               </p>
             </div>
             
@@ -478,10 +478,10 @@ const AITriage: React.FC = () => {
               <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <FileText className="w-6 h-6 text-white" />
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Document Analysis</h4>
+              <h4 className="font-semibold text-gray-900 mb-2">Real-time Analysis</h4>
               <p className="text-gray-600 text-sm">
-                OCR and medical document parsing to extract relevant information 
-                from lab results, prescriptions, and medical reports.
+                Instant processing of health queries with contextual understanding 
+                and personalized recommendations based on your specific situation.
               </p>
             </div>
             
